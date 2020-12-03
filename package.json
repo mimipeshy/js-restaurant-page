@@ -1,0 +1,24 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimipeshy/js-restaurant-page.git"
+  },
+  "author": "Peris Ndanu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mimipeshy/js-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/mimipeshy/js-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
