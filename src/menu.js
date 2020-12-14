@@ -3,8 +3,6 @@ function loadMenu() {
   
   content.innerHTML = '';
   const menu = document.createElement('UL');
-  // const card= document.createElement('card');
-  // menu.appendChild(card);
   menu.setAttribute('id', 'menu');
   for (let i = 0; i < 10; i += 1) {
     const pizza = document.createElement('li');

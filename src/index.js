@@ -2,7 +2,7 @@ import homepage from './landing-page';
 import generateNav from './navbar';
 import loadMenu from './menu';
 import loadContact from './contact';
-
+import loadFooter from './footer';
 
 const handleListeners = () => {
   const menu = [...document.querySelectorAll('.main-menu__item')];
@@ -17,5 +17,8 @@ const handleListeners = () => {
 };
 generateNav();
 homepage();
+// loadFooter();
 handleListeners();
+
+
 
