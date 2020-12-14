@@ -1,5 +1,7 @@
-const homepage=() => {
-   const content = document.getElementById('content');
+  const content = document.getElementById('content');
+  function homepage(){
+   content.innerHTML = '';
+ 
    const divContainer = document.createElement('div');
    divContainer.setAttribute('id', 'container');
 
@@ -18,9 +20,6 @@ const homepage=() => {
    const para1 = document.createElement('p');
    para1.innerHTML= "Cras elementum rhoncus rhoncus. Vestibulum sodales ante sed justo laoreet, quis luctus nisi malesuada. Integer consectetur nulla elit. onsequat";
    content.append(para1);
-
-
-  
 
   
 }
