@@ -1,6 +1,5 @@
 const content = document.getElementById('content');
 function loadMenu() {
-  
   content.innerHTML = '';
   const menu = document.createElement('UL');
   menu.setAttribute('id', 'menu');

@@ -1,5 +1,5 @@
 const content = document.getElementById('content');
-function generateNav  () {
+function generateNav() {
   content.innerHTML = '';
   const nav = document.getElementById('nav');
   const ul = document.createElement('ul');
@@ -25,7 +25,6 @@ function generateNav  () {
   }
   ul.appendChild(fragment);
   nav.appendChild(ul);
-  
-};
+}
 
 export default generateNav;

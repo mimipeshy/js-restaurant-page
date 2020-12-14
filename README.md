@@ -3,6 +3,8 @@ This is a restaurant page project with as main goal main goal to show the unders
 
 screenshot
 
+# See the Live version here - > [Live Link](https://mimipeshy.github.io/js-restaurant-page/dist/index.html)
+
 ## Built With
  - JavaScript (ES6/ES2015).
  - ES6 Modules.

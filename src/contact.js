@@ -15,6 +15,5 @@ function loadContact() {
   content.appendChild(contactHeader)
     .appendChild(faq)
     .appendChild(byPhone);
-  
 }
 export default loadContact;

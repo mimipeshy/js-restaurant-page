@@ -1,12 +1,13 @@
+import './styles/style.css';
 import homepage from './landing-page';
 import generateNav from './navbar';
 import loadMenu from './menu';
 import loadContact from './contact';
-import loadFooter from './footer';
+
 
 const handleListeners = () => {
   const menu = [...document.querySelectorAll('.main-menu__item')];
-  const events = [homepage, loadMenu,loadContact];
+  const events = [homepage, loadMenu, loadContact];
   menu.forEach((element, index) => {
     element.addEventListener('click', () => {
       const container = document.getElementById('div-container');
@@ -17,8 +18,4 @@ const handleListeners = () => {
 };
 generateNav();
 homepage();
-// loadFooter();
 handleListeners();
-
-
-
